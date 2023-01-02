@@ -1,0 +1,118 @@
+{
+    "projects": [
+        {
+            "title": "Optimum ERP (HR-module)",
+            "logo": "",
+            "subtitle": "Optimum ERP, Report your optimum modules easly with your phone, Mobile application only contains HR module for now.",
+            "organization": "Optimum for information technology",
+            "duration": "October 2022 - November 2022",
+            "images": [
+                "",
+                ""
+            ],
+            "links": {
+                "android": "https://play.google.com/store/apps/details?id=com.optimum.optimum_erp",
+                "ios": ""
+            },
+            "technologies": [
+                "google_maps_flutter",
+                "flutter_bloc",
+                "get_it",
+                "dio",
+                "very_good_analysis",
+                "flutter_launcher_icons",
+                "flutter_native_splash",
+                "flutter_icons",
+                "equatable",
+                "dartz",
+                "theme_manager"
+            ],
+            "arc": "Bloc state management, Clean archticture by Uncle pop",
+            "featurs": [
+                "User must enter subdomain at first login.",
+                "Admin add departments, Then creates sections under to it, Also creates jobs.",
+                "Only admin can create employee account, On creation admin should select department, Section and job for the employee.",
+                "Admin also specify workspaces locations on map, Employee can only sign in",
+                "Daily attendance at specified time and delay time with biometric authentication.",
+                "Activities tab where employee can add activity with note by check in/out multiple times per day in different places using Biometric authentication.",
+                "After 100m farther from checked in place user gets notifier by checking out after a while if not return.",
+                "Attendance tab contains a weekly calendar show attendance for employee, Also shows attendance for admin with employee filtration drop list.",
+                "Export weekly/monthly report for employee implemented for next update."
+            ]
+        },
+        {
+            "title": "Mandob Optimum - مندوب",
+            "logo": "",
+            "subtitle": "Application for management communicate between admin and his representatives & their sales & purchases processes.",
+            "organization": "Optimum for information technology",
+            "duration": "February 2022 - March 2022",
+            "images": [
+                "",
+                ""
+            ],
+            "links": {
+                "android": "https://play.google.com/store/apps/details?id=com.optimum.delegate",
+                "ios": "https://apps.apple.com/lk/app/mandob-optimum/id1619611080",
+                "android2": "https://play.google.com/store/apps/details?id=com.egg.mandob"
+            },
+            "technologies": [
+                "provider",
+                "Firebase cloud messaging (FCM-realtime-database)",
+                "adobe_xd",
+                "json_serializable",
+                "chopper_generator",
+                "flutter_localizations",
+                "flutter_barcode_scanner",
+                "permission_handler",
+                "sunmi_printer_service",
+                "persian_number_utility",
+                "printing"
+            ],
+            "arc": "Provider state management",
+            "featurs": [
+                "The user (Representative) carry a POS printer  (Sunmi POS tested) or C4 Printer.",
+                "App contains special access for admins accounts (only admins can create representative accounts).",
+                "Display & Print & Export reports as excel and pdf.",
+                "Display representative expenses & clients collections.",
+                "Cashier system depends representative operations, In cashier screen user can display, print, export all operations or per representative."
+            ]
+        },
+        {
+            "title": "Mandob Optimum - مندوب",
+            "logo": "",
+            "subtitle": "Application for management communicate between admin and his representatives & their sales & purchases processes.",
+            "organization": "Optimum for information technology",
+            "duration": "February 2022 - March 2022",
+            "images": [
+                "",
+                ""
+            ],
+            "links": {
+                "android": "https://play.google.com/store/apps/details?id=com.optimum.delegate",
+                "ios": "https://apps.apple.com/lk/app/mandob-optimum/id1619611080",
+                "android2": "https://play.google.com/store/apps/details?id=com.egg.mandob"
+            },
+            "technologies": [
+                "provider",
+                "Firebase cloud messaging (FCM-realtime-database)",
+                "adobe_xd",
+                "json_serializable",
+                "chopper_generator",
+                "flutter_localizations",
+                "flutter_barcode_scanner",
+                "permission_handler",
+                "sunmi_printer_service",
+                "persian_number_utility",
+                "printing"
+            ],
+            "arc": "Provider state management",
+            "featurs": [
+                "The user (Representative) carry a POS printer  (Sunmi POS tested) or C4 Printer.",
+                "App contains special access for admins accounts (only admins can create representative accounts).",
+                "Display & Print & Export reports as excel and pdf.",
+                "Display representative expenses & clients collections.",
+                "Cashier system depends representative operations, In cashier screen user can display, print, export all operations or per representative."
+            ]
+        }
+    ]
+}
