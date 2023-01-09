@@ -1,14 +1,15 @@
 {
     "projects": [
         {
+            "ïd": 1,
             "title": "Optimum ERP (HR-module)",
-            "logo": "",
+            "logo": "assets/projects/erpL.png",
             "subtitle": "Optimum ERP, Report your optimum modules easly with your phone, Mobile application only contains HR module for now.",
             "organization": "Optimum for information technology",
             "duration": "October 2022 - November 2022",
             "images": [
-                "",
-                ""
+                "assets/projects/erpB1.png",
+                "assets/projects/erpB2.png"
             ],
             "links": {
                 "android": "https://play.google.com/store/apps/details?id=com.optimum.optimum_erp",
@@ -29,10 +30,10 @@
             ],
             "arc": "Bloc state management, Clean archticture by Uncle pop",
             "featurs": [
-                "User must enter subdomain at first login.",
-                "Admin add departments, Then creates sections under to it, Also creates jobs.",
-                "Only admin can create employee account, On creation admin should select department, Section and job for the employee.",
-                "Admin also specify workspaces locations on map, Employee can only sign in",
+                "Initial Departments, Sections, Jobs.",
+                "Create employees accounts, Only admin can create employee account.",
+                "Specify workspaces locations on map, Employee allowed to daily sign only in workspace, Fake location secured.",
+                "Show on employees attendance and activities filtered by employee name",
                 "Daily attendance at specified time and delay time with biometric authentication.",
                 "Activities tab where employee can add activity with note by check in/out multiple times per day in different places using Biometric authentication.",
                 "After 100m farther from checked in place user gets notifier by checking out after a while if not return.",
@@ -41,14 +42,216 @@
             ]
         },
         {
+            "id": 2,
+            "title": "Azkar Al-Muslim - أذكار المسلم",
+            "logo": "assets/projects/azkarL.png",
+            "subtitle": "Application for Muslim's day life, Daily prayes, Quran, Pray Times, Qibla, 99 names's of 'Allah'.",
+            "organization": "Optimum for information technology",
+            "duration": "September 2022 - Octotber 2022",
+            "images": [
+                "assets/projects/azkarB.png"
+            ],
+            "links": {
+                "android": "https://play.google.com/store/apps/details?id=com.optimum.azkar&pli=1",
+                "ios": "https://apps.apple.com/us/app/%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85-optimum/id1660448259"
+            },
+            "technologies": [
+                "system_alert_window",
+                "flutter_bloc",
+                "workmanager",
+                "assets_audio_player",
+                "adhan",
+                "dartz",
+                "flutter_compass",
+                "flutter_qiblah",
+                "get_it"
+            ],
+            "arc": "Bloc state management, Clean archticture by Uncle pop",
+            "featurs": [
+                "Muslim's daily prayers quotes for all day times offline text & audio.",
+                "99 names's of -Allah- and meanings.",
+                "Holly Quran translated/explained in multi languages.",
+                "Play ayahs on tap with most famous readers's sounds.",
+                "Qible diriction with compass",
+                "Pray times for you current location & timezone."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Lava Attendance",
+            "logo": "assets/projects/erpL.png",
+            "subtitle": "Employee attendance application for daily signature with biometric authentication, With restful api from LavaERP website.",
+            "organization": "Optimum for information technology",
+            "duration": "August 2022",
+            "images": [
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
+            ],
+            "links": {
+                "android": "https://play.google.com/store/apps/details?id=com.optimum.lava_hr",
+                "ios": "https://apps.apple.com/lk/app/lava-attendance/id1641277093"
+            },
+            "technologies": [
+                "flutter_bloc",
+                "local_auth",
+                "table_calendar",
+                "flutter_svg",
+                "adobe_xd",
+                "intl_phone_field",
+                "firebase_core",
+                "firebase_auth",
+                "pin_code_fields",
+                "flutter_local_notifications",
+                "geolocator",
+                "flutter_map            ",
+                "country_code_picker",
+                "device_info_plus",
+                "webview_flutter"
+            ],
+            "arc": "Bloc state management, Clean archticture by Uncle pop",
+            "featurs": [
+                "Mobile authentication.",
+                "Check in/out in specific place and time setted by admin dashboard.",
+                "Calendar screen to display weekly attendance.",
+                "Profile screen show shifts times and selected place by admin for signing."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "HR Attendance",
+            "logo": "assets/projects/erpL.png",
+            "subtitle": "HR app to manage attendance with biometric signature, One app distracted for admin/employee authentication build with Flutter and Firebase realtime database",
+            "organization": "Optimum for information technology",
+            "duration": "July 2022",
+            "images": [
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
+            ],
+            "links": {
+                "android": "",
+                "ios": ""
+            },
+            "technologies": [
+                "flutter_bloc",
+                "local_auth",
+                "intl_phone_field",
+                "firebase_core",
+                "firebase_auth",
+                "pin_code_fields",
+                "url_launcher",
+                "geolocator",
+                "country_code_picker"
+            ],
+            "arc": "Bloc state management and design pattern",
+            "featurs": [
+                "Mobile authentication for admin/employee.",
+                "Check in/out multiple times per day with location and time using Biometric authentication,Also can add not for each record.",
+                "Calendar screen to display attendance for employee,Also for admin with employee filtration.",
+                "After 100m farther of checked in place user gets notifier that will be checked out after a while if not return.",
+                "Export weekly/monthly employee report."
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Optimum Store",
+            "logo": "assets/projects/erpL.png",
+            "subtitle": "HR app to manage attendance with biometric signature, One app distracted authentication for admin/employee, Build with Flutter and Firebase realtime database",
+            "organization": "Optimum for information technology",
+            "duration": "July 2022",
+            "images": [
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
+            ],
+            "links": {
+                "android": "",
+                "ios": ""
+            },
+            "technologies": [
+                "json_annotation",
+                "Fiebase",
+                "rive",
+                "connectivity_plus",
+                "dio",
+                "flutter_map",
+                "location",
+                "latlong2",
+                "geolocator",
+                "image_picker",
+                "date_time_picker",
+                "flutter_colorpicker",
+                "msix",
+                "build_runner",
+                "json_serializable",
+                "chopper_generator"
+            ],
+            "arc": "Provider state management & MVVM design pattern",
+            "featurs": [
+                "Multi vendor e-commerce app for OPTIMUM company with two authentication types as vendor/user, Both can be registered from the app.",
+                "Vendor able to create product properties  like size , color, material.",
+                "Vendor initiate categories, sub categories, brands,Then add offers, discounts , products with created properties.",
+                "User profile with addresses, orders, card, favorite screens.",
+                "Vendor profile with dashboard screen.",
+                "Products and vendor profile can be reviewed by user.",
+                "Customers screen where vender able to modify or search customers.",
+                "Vendor can initial/deactivate promo-codes for a specific user/group.",
+                "Different payments, shipping companies.",
+                "Notifications system with FCM."
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Cruise Booking",
+            "logo": "assets/projects/erpL.png",
+            "subtitle": "Cruise booking app build upon a cooperation between the biggest two companies (Al bala'3a group) in land/sea transition between Egypt an Saudi Arabia.",
+            "organization": "Optimum for information technology",
+            "duration": "February 2022",
+            "images": [
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
+            ],
+            "links": {
+                "android": "",
+                "ios": ""
+            },
+            "technologies": [
+                "json_annotation",
+                "Fiebase",
+                "rive",
+                "connectivity_plus",
+                "dio",
+                "flutter_map",
+                "location",
+                "latlong2",
+                "geolocator",
+                "image_picker",
+                "date_time_picker",
+                "flutter_colorpicker",
+                "msix",
+                "build_runner",
+                "json_serializable",
+                "chopper_generator"
+            ],
+            "arc": "Provider state management & MVVM design pattern",
+            "featurs": [
+                "App serve a website 'https://booking.opti4it.com/en' which a part of OPTIMUM ERP.",
+                "App allows user to book a tickets on. a cruise to travel between Egypt and Saudi Arabia through the red sea and for persons, Packages and cars.",
+                "Trips timeline can be filtered with user specifications departure time  & destination.",
+                " App contains two access points agent & passenger.",
+                " Passenger able to book one ticket on each trip, Booking must be confirmed by payment.",
+                "Agent can book a group of tickets on several trips, which not conflict with his quota,No need for confirmation he can pay later for agency.",
+                "Some papers hand delivered by passenger."
+            ]
+        },
+        {
+            "id": 7,
             "title": "Mandob Optimum - مندوب",
-            "logo": "",
+            "logo": "assets/projects/erpL.png",
             "subtitle": "Application for management communicate between admin and his representatives & their sales & purchases processes.",
             "organization": "Optimum for information technology",
             "duration": "February 2022 - March 2022",
             "images": [
-                "",
-                ""
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
             ],
             "links": {
                 "android": "https://play.google.com/store/apps/details?id=com.optimum.delegate",
@@ -78,40 +281,131 @@
             ]
         },
         {
-            "title": "Mandob Optimum - مندوب",
-            "logo": "",
-            "subtitle": "Application for management communicate between admin and his representatives & their sales & purchases processes.",
+            "id": 8,
+            "title": "Nahrukom - نهركم",
+            "logo": "assets/projects/erpL.png",
+            "subtitle": "Nahrukom is a complete e-commerce system, System is a combination of web admin panel , 2 mobile applications all create with flutter frame work and firebase realtime-database",
             "organization": "Optimum for information technology",
             "duration": "February 2022 - March 2022",
             "images": [
-                "",
-                ""
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
             ],
             "links": {
-                "android": "https://play.google.com/store/apps/details?id=com.optimum.delegate",
-                "ios": "https://apps.apple.com/lk/app/mandob-optimum/id1619611080",
-                "android2": "https://play.google.com/store/apps/details?id=com.egg.mandob"
+                "android": "https://play.google.com/store/apps/details?id=com.water.app",
+                "ios": "https://apps.apple.com/lk/app/nahrkom-%D9%86%D9%87%D8%B1%D9%83%D9%85/id1615041235",
+                "android2": "https://play.google.com/store/apps/details?id=com.water.mandob"
             },
             "technologies": [
                 "provider",
-                "Firebase cloud messaging (FCM-realtime-database)",
-                "adobe_xd",
+                "Firebase cloud messaging(FCM-realtime-database)",
+                "firebase_database",
+                "freezed",
+                "get_it",
+                "bloc",
+                "flutter_bloc",
+                "font_awesome_flutter",
+                "firebase_messaging",
+                "cloud_firestore"
+            ],
+            "arc": "Bloc state management and MVVM arc",
+            "featurs": [
+                "Web Admin panel created with flutter web, Where admin set orders to representatives, And moderate two mobile apps represetative & customers.",
+                "Representatives recieves orders, Record operations and invoices on 'Mandob Nahrukom' mobile app.",
+                "Customers app where users able to get last offers and items, Make orders and check state and so on.",
+                "System implemented for a small business company sells water for dealers/customers.",
+                "User can browse last added products, offer and packages in main screen or open a category page or search for a specific product.",
+                "Cart screen to prepaire order to be going",
+                "Firebase NoSQL Real-time database, authentication, firestore, FCM."
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Nahrukon web admin panel",
+            "logo": "assets/projects/erpL.png",
+            "subtitle": "Application for management communicate between admin and his representatives & their sales & purchases processes.",
+            "organization": "Optimum for information technology",
+            "duration": "January 2022 - February 2022",
+            "images": [
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
+            ],
+            "links": {
+                "web": "https://water-app-admin.web.app"
+            },
+            "technologies": [
+                "provider",
+                "Firebase cloud messaging(FCM-realtime-database)",
+                "flutter_colorpicker",
                 "json_serializable",
                 "chopper_generator",
                 "flutter_localizations",
-                "flutter_barcode_scanner",
-                "permission_handler",
-                "sunmi_printer_service",
+                "google_maps_flutter",
+                "google_maps_flutter_web",
+                "universal_html",
                 "persian_number_utility",
-                "printing"
+                "image_picker_web",
+                "data_table_2"
+            ],
+            "arc": "Provider state management and MVVM design pattern",
+            "featurs": [
+                "Web admin panel to manage and report commercial application and company representatives.",
+                "Display reports for users , products , orders and representatives in home screen , also display recent orders.",
+                "Add, Edit, Remove functionality on categories, products, customer and suppliers.",
+                "Receiver orders from app clients ,then set each order to selected representative if his store contains enough quantity.",
+                "Cashiers system record each income & outgoing process by representative and calculate currency as total or for each representative.",
+                "Main Store for admin and the ability to transfer from main to representatives stores.",
+                "Display sales, purchases, returned invoices, Also can be filtered by date or representative.",
+                "Display your clients and suppliers lists and supplier and customer statements report.",
+                "Promo codes system allow admin to add and edit valid vouchers for all or specific user."
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Shopping App",
+            "logo": "assets/projects/erpL.png",
+            "subtitle": "Flutter online store for android and IOS.",
+            "organization": "Create Egypt",
+            "duration": "January 2022 - February 2022",
+            "images": [
+                "assets/projects/covidB.png",
+                "assets/projects/medkitB.png"
+            ],
+            "links": {
+                "web": "https://water-app-admin.web.app"
+            },
+            "technologies": [
+                "flutter_toolbox",
+                "font_awesome_flutter",
+                "provider",
+                "url_launcher",
+                "locale_observer",
+                "cloud_firestore",
+                "firebase_storage",
+                "firebase_messaging",
+                "firebase_auth",
+                "flutter_local_notifications",
+                "http",
+                "http_retry",
+                "json_annotation",
+                "chopper",
+                "google_maps_flutter",
+                "country_code_picker",
+                "file_picker",
+                "niddler_dart",
+                "pin_code_fields",
+                "in_app_review",
+                "shared_preferences",
+                "flutter_webview_plugin",
+                "flutter_html",
+                "webview_cookie_manager"
             ],
             "arc": "Provider state management",
             "featurs": [
-                "The user (Representative) carry a POS printer  (Sunmi POS tested) or C4 Printer.",
-                "App contains special access for admins accounts (only admins can create representative accounts).",
-                "Display & Print & Export reports as excel and pdf.",
-                "Display representative expenses & clients collections.",
-                "Cashier system depends representative operations, In cashier screen user can display, print, export all operations or per representative."
+                "Flutter online store for android and IOS.",
+                "Firebase cloud messaging (FCM) for notifications system.",
+                "Widget Animation.",
+                "RestFul API."
             ]
         }
     ]
