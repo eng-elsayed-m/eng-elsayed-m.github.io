@@ -234,7 +234,7 @@
             "arc": "Provider state management & MVVM design pattern",
             "featurs": [
                 "App serve a website 'https://booking.opti4it.com/en' which a part of OPTIMUM ERP.",
-                "App allows user to book a tickets on. a cruise to travel between Egypt and Saudi Arabia through the red sea and for persons, Packages and cars.",
+                "App allows user to book a tickets on a cruise to travel between Egypt and Saudi Arabia through the red sea and for persons, Packages and cars.",
                 "Trips timeline can be filtered with user specifications departure time  & destination.",
                 " App contains two access points agent & passenger.",
                 " Passenger able to book one ticket on each trip, Booking must be confirmed by payment.",
