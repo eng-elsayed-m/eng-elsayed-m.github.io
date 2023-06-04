@@ -1,6 +1,6 @@
 {
-    "name": "sydm_portifolio",
-    "short_name": "sydm_portifolio",
+    "name": "app",
+    "short_name": "app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
