@@ -76665,9 +76665,9 @@ return A.cR("I'm capable of creating excellent mobile apps, handling "+q+"every 
 $S:82}
 A.Hx.prototype={
 L(a){var s=null,r=A.ez(20),q=A.a([B.aA,B.dz],t.c)
-return A.m2(!1,s,!0,A.cM(B.a2,A.f5(A.a([A.cR("Download CV",s,s,A.ac(a).p2.ax.Op(B.i,B.ac,1.2)),B.S7,B.Il],t.p),B.R,B.M,B.B),B.r,s,s,new A.cu(s,s,s,r,B.mO,new A.hT(B.z_,B.yZ,B.a7,q,s,s),B.a3),s,s,s,B.HA,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,new A.a0g(),s,s,s,s)}}
+return A.m2(!1,s,!0,A.cM(B.a2,A.f5(A.a([A.cR("Display Resume",s,s,A.ac(a).p2.ax.Op(B.i,B.ac,1.2)),B.S7,B.Il],t.p),B.R,B.M,B.B),B.r,s,s,new A.cu(s,s,s,r,B.mO,new A.hT(B.z_,B.yZ,B.a7,q,s,s),B.a3),s,s,s,B.HA,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,new A.a0g(),s,s,s,s)}}
 A.a0g.prototype={
-$0(){A.fZ(A.cX("https://drive.google.com/file/d/1HSIe7rdk8VtrAL4DQuybfMHQgDrQ6xNs/view?usp=sharing",0,null))},
+$0(){A.fZ(A.cX("https://flowcv.com/resume/a75to6jaat",0,null))},
 $S:0}
 A.oU.prototype={
 L(a){return new A.h1(new A.a8m(this),null)}}
